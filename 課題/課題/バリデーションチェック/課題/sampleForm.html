@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>サンプルフォーム</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+
+  <div id="header"></div>
+  <div id="right_box">
+
+    <table id="stk_table">
+      <tbody>
+        <tr>
+          <td>
+            【ユーザー登録】
+          </td>
+          <td>　</td>
+        </tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr>
+          <td colspan="2">
+            <ul>
+              <li>
+                <span>
+                  <font style="color:red">※</font>がついている項目は入力必須です。
+                </span>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+    <form id="app" @submit="checkForm" action="https://vuejs.org/" method="post">
+      <!--/* エラー表示 */-->
+      <p v-if="errors.length">
+      <ul>
+        <div v-for="error in errors">
+          <li>{{ error }}</li>
+        </div>
+      </ul>
+      </p>
+      <br><br>
+      <table>
+        <tbody>
+          <tr>
+            <td>ユーザー名 <span style="color:red">※</span>
+            </td>
+            <td>
+              <input type="text" name="name" v-model="name" maxlength="50" id="name" style="width:410px">
+            </td>
+          </tr>
+          <tr>
+            <td>ユーザID <span style="color:red">※</span>
+            </td>
+            <td>
+              <input type="text" name="loginId" v-model="loginId" maxlength="40" id="loginId" style="width:210px">
+            </td>
+          </tr>
+          <tr>
+            <td>パスワード <span style="color:red">※</span>
+            </td>
+            <td>
+              <input type="text" name="password1" v-model="password1" maxlength="40" id="password1"
+                style="width:210px"><span></span>
+            </td>
+          </tr>
+          <tr>
+            <td>パスワード(確認用) <span style="color:red">※</span>
+            </td>
+            <td>
+              <input type="text" name="password2" v-model="password2" maxlength="40" id="password2"
+                style="width:210px"><span></span>
+            </td>
+          </tr>
+          <tr>
+          <tr>
+            <td>メールアドレス <span style="color:red">※</span>
+            </td>
+            <td>
+              <input type="text" name="email" v-model="email" maxlength="100" id="email" style="width:410px">
+            </td>
+          </tr>
+          <tr>
+            <td>携帯電話番号
+            </td>
+            <td>
+              <input type="text" name="bcMemberDto.tel2" maxlength="40" id="tel2" style="width:410px">
+            </td>
+          </tr>
+          <tr>
+            <td>備考
+            </td>
+            <td>
+              <textarea name="bcMemberDto.shinseiMemo" rows="5" id="memo" style="width:580px" title="コメント"></textarea>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+      <br>
+      <br>
+
+
+
+      <input type="submit" value="登録">
+
+      <input type="submit" value="一覧に戻る">
+    </form>
+    <br>
+  </div>
+
+  <script src="js/test-vue/test-vue.js"></script>
+</body>
+
+</html>
