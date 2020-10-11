@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>Sample09!</title>
+        <link rel="stylesheet" href="index.css">
+
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/2.8.1/vue-router.js"></script>
+        <script src="https://www.promisejs.org/polyfills/promise-7.0.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <!-- リンク先を `to` プロパティに指定します -->
+            <!-- デフォルトで <router-link> は `<a>` タグとしてレンダリングされます -->
+            <router-link to="/">トップページ</router-link>
+            <router-link to="/fruits">フルーツ一覧ページ</router-link>
+            <router-link to="/line">山手線一覧ページ</router-link>
+            <!-- 現在のURLとマッチしたルートに定義されたコンポーネントがここにレンダリングされます -->
+            <router-view></router-view>
+        </div>
+
+        <div id="app2">
+            <ol>
+                <li v-for="line in yamanoteline">
+                    {{ line.id + 1 }}
+                    {{ line.name }}
+                </li>
+            </ol>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
