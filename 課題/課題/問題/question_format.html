@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<title>question-地球編-</title>
+</head>
+<body>
+
+<!--/* HEADER START */-->
+<header id="headerWrap" class="centeringBox">
+<div id="header" class="centeringContent">
+<h1>Question(地球編)</h1>
+</div>
+</header>
+<!--/* HEADER END */-->
+
+<!--/* CONTENT START */-->
+<div id="app">
+<main id="mainCol">
+<!--/* dataで持つように修正したい START */-->
+<h3 class="qno">問1</h3><div>南極の氷がすべて溶けたら、地球全体の海水面はどれだけ上昇する？</div><div class="ansbg" style="margin:10px 0 30px"><ul class="selectList cf"><li><div id="select_a">4m</div><a href="javascript:void(0)" @click.prevent="OnClick('a')" class="selectBtn"><button>ア</button></a></li><li><div id="select_i">30m</div><a href="javascript:void(0)" @click.prevent="OnClick('i')" class="selectBtn"><button>イ</button></a></li><li><div id="select_u">60m</div><a href="javascript:void(0)" @click.prevent="OnClick('u')" class="selectBtn" id="t"><button>ウ</button></a></li><li><div id="select_e">100m</div><a href="javascript:void(0)" @click.prevent="OnClick('e')" class="selectBtn"><button>エ</button></a></li></ul></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h3>正解</h3>
+<!--div id="popup"></div>--><!--/* 正誤ウィンドウ */-->
+<div class="answerBox"><span>ウ</span></div>
+<h3>解説</h3>
+<div class="ansbg">南極の氷は分厚く、その厚さは平均で2450メートル。もっとも厚い部分では4500メートルにもおよぶ。この氷は、何百万年もかけて降り積もった雪が溶けることなく圧縮されてできたもので、とてつもない重さで南極大陸を押し下げている。そのため、南極は大陸といっても、その大部分は海面下まで沈下しているのだ。
+<br>氷が溶けてなくなると、南極の地盤は数百メートル隆起し、海水面が上昇する。その影響は南極周辺だけにはとどまらず、地球全体の海水面がおよそ60メートルも上昇するという。
+<br>当然、海沿いにある街は水没する。日本では、東京23区が高層ビル以外水没し、東京オリンピックの会場予定地も海面下になる。ほかにも人口が集中している都市の多くが海の近くに位置しているため、主要都市は水没することになるだろう。
+<br>したがって「ウ」が正解です。</div>
+<!--/* dataで持つように修正したい END */-->
+</main>
+<a href="#header" id="toTop"><span>&#9650;</span><br>Pagetop</a>
+</div>
+<!--/* CONTENT END */-->
+
+<!--/* SCRIPT START */-->
+  <script>
+  const vm = new Vue({
+    el: "#app",
+      data: {
+      answer : 'u'
+      },
+      methods: {
+        OnClick (value) {
+          if (value != this.answer) {
+            alert("不正解です");
+          } 
+          else {
+            alert("正解です");
+          }
+    
+          this.$scrollTo('#answerBox')
+        }
+      }
+  })
+  </script>
+<!--/* SCRIPT END */-->
+</body>
+</html>

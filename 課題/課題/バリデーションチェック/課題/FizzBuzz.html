@@ -1,0 +1,36 @@
+<html>
+<head>
+<script src="vue.js"></script>
+</head>
+<body>
+    <div id="loop">
+        <div v-for="count in 100">
+          <div v-if="count % 15 === 0" v-bind:style="fizzBuzzStyle">FizzBuzz {{ count }}</div>
+          <div v-else-if="count % 5 === 0" v-bind:style="fizzStyle">Fizz {{ count }}</div>
+          <div v-else-if="count % 3 === 0" v-bind:style="BuzzStyle">Buzz {{ count }}</div>
+          <div v-else>{{ count }}</div>
+        </div>
+    </div>
+</body>
+<script>
+
+let loop = new Vue({
+  el: '#loop',
+  data: {
+    fizzBuzzStyle: {
+      color: 'red',
+      fontSize: '13px',
+      "font-weight": "bold",
+    },
+    fizzStyle: {
+      color: 'blue',
+      fontSize: '13px'
+    },
+    BuzzStyle: {
+      color: 'green',
+      fontSize: '13px'
+    }
+  }
+})
+</script>
+</html>
