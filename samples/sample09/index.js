@@ -1,21 +1,3 @@
-var app2 = new Vue({
-    el: '#app2',
-    data: {
-        yamanoteline: []
-    },
-    mounted: function() {
-        var self = this;
-        axios
-            .get('./data.json')
-            .then(function(response) {
-                self.yamanoteline = response.data.yamanoteline;
-            })
-            .catch(function(error) {
-                console.log('取得に失敗しました。', error);
-            })
-    }
-})
-
 // ルートオプションを渡してVue Routerを初期化します
 var router = new VueRouter({
     // 各ルートにコンポーネントをマッピングします
@@ -69,9 +51,9 @@ var router = new VueRouter({
             path: '/line',
             component: {
                 template: `
-                    <div>
+                    <div class="container">
                         <h1>山手線一覧ページです。</h1>
-                        <table class="table">
+                        <table class="table table-striped" border="1">
                             <thead>
                                 <tr>
                                     <th>Name</th>
@@ -83,7 +65,7 @@ var router = new VueRouter({
                                 <tr v-for="line in yamanoteline">
                                     <td>{{ line.name }}</td>
                                     <td>{{ line.address }}</td>
-                                    <td>{{ line.url }}</td>
+                                    <td><a href="{{ line.url }}">{{ line.url }}</a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -91,8 +73,19 @@ var router = new VueRouter({
                 `,
                 data () {
                     return {
-                        yamanoteline
+                        yamanoteline: []
                     }
+                },
+                mounted: function() {
+                    var self = this;
+                    axios
+                        .get('./data.json')
+                        .then(function(response) {
+                            self.yamanoteline = response.data.yamanoteline;
+                        })
+                        .catch(function(error) {
+                            console.log('取得に失敗しました。', error);
+                        })
                 }
             }
         }
