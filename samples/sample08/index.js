@@ -1,4 +1,3 @@
-
 var app = new Vue({
     el: '#app',
     data: {
@@ -6,4 +5,4 @@ var app = new Vue({
         radio_data : "Google",
         select_data : ""
     }
-});  
+});

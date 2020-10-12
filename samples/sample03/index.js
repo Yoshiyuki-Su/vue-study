@@ -4,7 +4,7 @@ var app = new Vue({
         message: 'Hello Vue.js!'
     },
     methods: {
-        everseMessage: function () {
+        reverseMessage: function () {
         this.message = this.message.split('').reverse().join('')
     }
     }
