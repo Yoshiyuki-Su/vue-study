@@ -1,6 +1,6 @@
 {
-	"YamanoteLine": [
-		{ "id": 0, "name": "東　京", "furigana": "とうきょう", "address": "千代田区", "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=1039" },
+    "YamanoteLine": [
+        { "id": 0, "name": "東　京", "furigana": "とうきょう", "address": "千代田区", "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=1039" },
         { "id": 1, "name": "神　田", "furigana": "かんだ", "address": "千代田区", "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=538" },
         { "id": 2, "name": "秋葉原", "furigana": "あきはばら", "address": "千代田区", "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=41" },
         { "id": 3, "name": "御徒町", "furigana": "おかちまち", "address": "台東区", "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=355" },
@@ -30,5 +30,5 @@
         { "id": 27, "name": "浜松町", "furigana": "はままつちょう", "address": "港　区", "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=1248" },
         { "id": 28, "name": "新　橋", "furigana": "しんばし", "address": "港　区", "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=877" },
         { "id": 29, "name": "有楽町", "furigana": "ゆうらくちょう", "address": "千代田区", "url": "https://www.jreast.co.jp/estation/station/info.aspx?StationCd=1617" }
-	]
+    ]
 }

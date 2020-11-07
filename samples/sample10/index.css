@@ -1,8 +1,8 @@
 html, body {
-    margin: 5px;
-    padding: 0;
+  margin: 5px;
+  padding: 0;
 }
 
 #app .error {
-    color: red;
+  color: red;
 }
