@@ -1,57 +1,52 @@
 <!DOCTYPE html>
-    <head>
-        <title>Sample08!</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    </head>
-    <body>
-        
-        <div class="jumbotron">
-			<div class="container">
-				<h3>Demo - <small>Vue.js</small></h3>
-			</div>
-		</div>
-		<div id="app">
-			<div class="container">
-				<div class="pb-2">
-					<input type="text" class="form-control" placeholder="enter a message here..." v-model="text_data">
-				</div>
-				<div class="pb-4" v-text="text_data"></div>
-				<div class="pb-4">
-					
-					<label class="mr-2">
-						<input type="radio" v-model="radio_data" value="Apple">
-						Apple
-					</label>
-					<label class="mr-2">
-						<input type="radio" v-model="radio_data" value="Google">
-						Google
-					</label>
-
-					<div class="pb-2">
-						<p>Checked item is {{ radio_data }}.</p>
-					</div>
-				</div>
-				<div class="pb-2">
-					<label>Which SNS do you often use?</label>
-					<div class="pb-2">
-						<select v-model="select_data" class="form-control">
-							<option value="">Select ...</option>
-							<option value="Twitter">Twitter</option>
-							<option value="Facebook">Facebook</option>
-                            <option value="Instagram">Instagram</option>
-                            <option value="TikTok">TikTok</option>
-						</select>
-					</div>
-					<div class="pb-4">
-						<p>Selected item is {{ select_data }}.</p>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-
-        <script src="index.js"></script>
-    </body>
+<head>
+  <title>Sample08!</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <h3>Demo - <small>Vue.js</small></h3>
+    </div>
+  </div>
+  <div id="app">
+	  <div class="container">
+        <div class="pb-2">
+          <input type="text" class="form-control" placeholder="enter a message here..." v-model="text_data">
+        </div>
+        <div class="pb-4" v-text="text_data"></div>
+        <div class="pb-4">
+          <label class="mr-2">
+            <input type="radio" v-model="radio_data" value="Apple">
+            Apple
+          </label>
+          <label class="mr-2">
+            <input type="radio" v-model="radio_data" value="Google">
+              Google
+          </label>
+          <div class="pb-2">
+            <p>Checked item is {{ radio_data }}.</p>
+          </div>
+        </div>
+        <div class="pb-2">
+          <label>Which SNS do you often use?</label>
+          <div class="pb-2">
+            <select v-model="select_data" class="form-control">
+              <option value="">Select ...</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Instagram">Instagram</option>
+              <option value="TikTok">TikTok</option>
+            </select>
+          </div>
+          <div class="pb-4">
+           <p>Selected item is {{ select_data }}.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
 </html>
