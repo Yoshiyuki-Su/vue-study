@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <title>Sample12!</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+　<!-- サーバを立てて実行する事で正常に動作する事を確認する -->
+  <div id="demo">
+    <p class="title">zipcode to address demo</p>
+    <input v-model="inputZip" :placeholder="computedZip" v-on:keypress.enter="getAddress(computedZip)" maxlength="7">
+    <button @click="getAddress(computedZip)">boom</button>
+    <div class="result">
+      <transition name="trans">
+        <!-- 下記が文字化けする -->
+        <p class="res":key="results">{{results}}</p>
+      </transition>
+    </div>  
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
