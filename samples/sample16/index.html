@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <title>Sample16!</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="container-fluid">
+      <table class="table table-bordered">
+        <colgroup>
+          <col width="50%">
+          <col width="50%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Form</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="form-group mb-0">
+                <label>File</label>
+                <input v-on="file" type="file" class="form-control" accept="image/*">
+              </div>
+            </td>
+            <td><pre class="mb-0">{{ file }}</pre></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
