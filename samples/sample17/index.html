@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <title>Sample17!</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+  <div id="app">
+    <div class="container-fluid">
+      <table class="table table-bordered">
+        <colgroup>
+          <col width="50%">
+          <col width="50%">
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Form</th>
+            <th>Value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="form-group mb-0">
+                <label>Date</label>
+                <input v-model="birthday" type="date" class="form-control">
+              </div>
+            </td>
+            <td><pre class="mb-0">{{ birthday }}</pre></td>
+          </tr>
+          <tr>
+            <td>
+              <div class="form-group mb-0">
+                <label>Range</label>
+                <input v-model="range" type="range" class="form-control" min="0" max="10">
+              </div>
+            </td>
+            <td>{{ '🍔'.repeat(range) }} ({{ range }})</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
