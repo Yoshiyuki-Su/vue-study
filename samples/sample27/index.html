@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+  <title>Sample27!</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <input type="radio" name="type" onclick="app.type='soccer'" checked>
+    <input type="radio" name="type" onclick="app.type='baseball'">
+    <input type="radio" name="type" onclick="app.type='tennis'">
+    <span v-if="type=='soccer'">soccer</span>
+    <span v-else-if="type=='baseball'">baseball</span>
+    <span v-else>Bye!</span>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
