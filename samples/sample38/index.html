@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+  <title>Sample38!</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+    <input type="button" @click="addBlue" value="Add">
+    <input type="button" @click="deleteBlue" value="Delete">
+    <ul>
+    <li v-for="(value, key) in colorList">{{ key }} = {{ value }}</li>
+    </ul>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
