@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T15:26:22.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="934jMbCUqSe2AQRrFMUr" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-21T15:30:15.600Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="rzW9Gxp-eudnaz6tM3Ll" version="14.4.2" type="github" pages="2">
   <diagram name="トップ画面" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -149,6 +149,9 @@
         </mxCell>
         <mxCell id="05ElZ_iUnqexAiG5gRym-5" value="パスワードをお忘れですか？" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#CCCCCC;strokeColor=#000000;gradientColor=none;fontFamily=Verdana;fontSize=16;align=center;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
           <mxGeometry x="-1060" y="500" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="05ElZ_iUnqexAiG5gRym-7" value="新規会員登録はこちら" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#CCCCCC;strokeColor=#000000;gradientColor=none;fontFamily=Verdana;fontSize=16;align=center;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1250" y="620" width="440" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
