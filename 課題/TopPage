@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T14:39:19.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="6n8Tg8XcXgpVoJiLVvE5" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-21T15:26:22.133Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="934jMbCUqSe2AQRrFMUr" version="14.4.2" type="github" pages="2">
   <diagram name="トップ画面" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="50" y="340" width="200" height="450" as="geometry" />
         </mxCell>
         <mxCell id="677b7b8949515195-9" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" parent="1" vertex="1">
-          <mxGeometry x="30" y="20" width="1070" height="140" as="geometry" />
+          <mxGeometry x="30" y="20" width="1060" height="140" as="geometry" />
         </mxCell>
         <mxCell id="677b7b8949515195-10" value="&lt;font style=&quot;font-size: 37px&quot;&gt;お知らせ&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="100" width="1020" height="230" as="geometry" />
@@ -110,12 +110,45 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5qe83o5fbcXPZ3lzWxpZ" name="ログイン画面">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2600" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="c5u8J5K4rMGcrc78o1s3-0" />
         <mxCell id="c5u8J5K4rMGcrc78o1s3-1" parent="c5u8J5K4rMGcrc78o1s3-0" />
         <mxCell id="EOnOES7wtruoL91lb46W-0" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
-          <mxGeometry x="30" y="10" width="1060" height="1000" as="geometry" />
+          <mxGeometry x="-1250" y="40" width="440" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="MSjCY3kAU99Js9b70w5U-0" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Googleでログイン&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1225" y="140" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MSjCY3kAU99Js9b70w5U-1" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;LINEでログイン&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1225" y="210" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LSzxg5pVkjU7M_Xt-8jx-1" value="" style="line;strokeWidth=1;html=1;rounded=0;shadow=0;labelBackgroundColor=none;fillColor=none;fontFamily=Verdana;fontSize=14;fontColor=#000000;align=center;comic=1;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1230" y="250" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RiqFVfjAYEJEFK6ydITh-0" value="メールアドレスでログイン" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1230" y="290" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RiqFVfjAYEJEFK6ydITh-1" value="&lt;font&gt;&lt;b style=&quot;font-size: 22px&quot;&gt;LOG IN&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;ログイン&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;points=[];align=center;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1090" y="80" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="05ElZ_iUnqexAiG5gRym-0" value="パスワード" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.pwField;strokeColor=#999999;mainText=;align=left;fontColor=#666666;fontSize=17;spacingLeft=3;gradientColor=none;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1230" y="400" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="05ElZ_iUnqexAiG5gRym-1" value="メールアドレス" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.text.textBox;fontColor=#666666;align=left;fontSize=17;spacingLeft=4;spacingTop=-3;strokeColor=#666666;mainText=;gradientColor=none;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1230" y="340" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="05ElZ_iUnqexAiG5gRym-2" value="※ パスワードは半角英数6文字以上で入力してください。" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1230" y="450" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="05ElZ_iUnqexAiG5gRym-3" value="※ 記号は使用できません。" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1230" y="470" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="05ElZ_iUnqexAiG5gRym-4" value="ログイン" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;gradientColor=#b3b3b3;align=center;fontSize=18;labelBackgroundColor=#CCCCCC;fillColor=#f5f5f5;labelBorderColor=none;fontFamily=Verdana;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1230" y="540" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="05ElZ_iUnqexAiG5gRym-5" value="パスワードをお忘れですか？" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#CCCCCC;strokeColor=#000000;gradientColor=none;fontFamily=Verdana;fontSize=16;align=center;" vertex="1" parent="c5u8J5K4rMGcrc78o1s3-1">
+          <mxGeometry x="-1060" y="500" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
