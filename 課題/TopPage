@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T14:45:32.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="0kAYs4Xlph4swlOsA3Lt" version="14.4.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-02-26T14:48:02.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="WC_vFfcyY4fQ19jmIDdg" version="14.4.2" type="github" pages="5">
   <diagram name="トップ画面" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="2213" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -355,7 +355,7 @@
           <mxGeometry x="100" y="110" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6rmUWIXAYIE1FwXRxdUK-20" value="&lt;font&gt;&lt;b style=&quot;font-size: 22px&quot;&gt;ショッピングカート&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#999999&quot; style=&quot;font-size: 20px&quot;&gt;SHOPPING CART&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=16;fontColor=none;" vertex="1" parent="6rmUWIXAYIE1FwXRxdUK-1">
-          <mxGeometry x="480" y="240" width="240" height="40" as="geometry" />
+          <mxGeometry x="470" y="270" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6rmUWIXAYIE1FwXRxdUK-21" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=#000000;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;" vertex="1" parent="6rmUWIXAYIE1FwXRxdUK-1">
           <mxGeometry x="20" y="680" width="1060" height="180" as="geometry" />
