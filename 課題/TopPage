@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T13:01:22.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="DSkpaChhkpnpNyIQ6Ozf" version="14.4.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-26T13:20:21.118Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="niMzxnWc81WoAimoQv8I" version="14.4.2" type="github" pages="2">
   <diagram name="トップ画面" id="03018318-947c-dd8e-b7a3-06fadd420f32">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,14 +34,14 @@
         <mxCell id="677b7b8949515195-25" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;align=center;comic=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="340" width="220" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="677b7b8949515195-30" value="Section 4" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
+        <mxCell id="677b7b8949515195-30" value="カテゴリー" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
           <mxGeometry x="60" y="360" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="677b7b8949515195-31" value="Section 7" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
           <mxGeometry x="60" y="490" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="677b7b8949515195-32" value="Section 8" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
-          <mxGeometry x="60" y="540" width="170" height="20" as="geometry" />
+          <mxGeometry x="70" y="540" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="677b7b8949515195-33" value="Section 9" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" parent="1" vertex="1">
           <mxGeometry x="60" y="590" width="170" height="20" as="geometry" />
@@ -105,6 +105,9 @@
         </mxCell>
         <mxCell id="o0-fFu3N_wvNXhJPTJGW-38" value="商品欄" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="260" y="340" width="580" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="7NGJc7fs5m1ch7gOXXcx-1" value="caroucel" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;labelBackgroundColor=none;strokeColor=#000000;gradientColor=none;fontFamily=Verdana;fontSize=16;fontColor=none;align=center;position2=0.21;" vertex="1" parent="1">
+          <mxGeometry x="160" y="100" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
