@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T13:51:01.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="88c_i0RCznVA3ZwxSE6w" version="14.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-26T13:52:27.540Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="9WnredtNGpMOKrsS9fCa" version="14.4.2" type="github" pages="3">
   <diagram name="トップ画面" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
         <mxCell id="N5eiHkZ9s5nguNEUeQlA-0" />
         <mxCell id="N5eiHkZ9s5nguNEUeQlA-1" parent="N5eiHkZ9s5nguNEUeQlA-0" />
         <mxCell id="N5eiHkZ9s5nguNEUeQlA-2" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;comic=1;" vertex="1" parent="N5eiHkZ9s5nguNEUeQlA-1">
-          <mxGeometry x="-1250" y="40" width="440" height="620" as="geometry" />
+          <mxGeometry x="-1250" y="60" width="440" height="620" as="geometry" />
         </mxCell>
         <mxCell id="N5eiHkZ9s5nguNEUeQlA-3" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;Googleでアカウント作成&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fillColor=#dae8fc;fontFamily=Verdana;fontSize=12;align=center;verticalAlign=top;spacing=10;comic=1;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="N5eiHkZ9s5nguNEUeQlA-1">
           <mxGeometry x="-1225" y="140" width="390" height="50" as="geometry" />
@@ -199,6 +199,9 @@
         </mxCell>
         <mxCell id="N5eiHkZ9s5nguNEUeQlA-13" value="ログインはこちら" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#666666;fontFamily=Verdana;fontSize=16;align=center;fillColor=#f5f5f5;gradientColor=#b3b3b3;" vertex="1" parent="N5eiHkZ9s5nguNEUeQlA-1">
           <mxGeometry x="-1122.5" y="610" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2gP_hMLLcJAOpj363ETR-0" value="&lt;span style=&quot;color: rgb(149 , 160 , 165) ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;ヒラギノ角ゴシック pro&amp;#34; , &amp;#34;hiragino kaku gothic pro&amp;#34; , , &amp;#34;meiryo&amp;#34; ; font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;アカウントを作成すると、&lt;/span&gt;&lt;a href=&quot;https://fabric-tokyo.com/pages/policy&quot; target=&quot;_blank&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; font-stretch: inherit ; line-height: inherit ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;ヒラギノ角ゴシック pro&amp;#34; , &amp;#34;hiragino kaku gothic pro&amp;#34; , , &amp;#34;meiryo&amp;#34; ; font-size: 10px ; vertical-align: baseline ; color: rgb(51 , 51 , 51) ; background-color: rgb(255 , 255 , 255) ; outline: none&quot;&gt;利用規約・プライバシーポリシー&lt;/a&gt;&lt;span style=&quot;color: rgb(149 , 160 , 165) ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;ヒラギノ角ゴシック pro&amp;#34; , &amp;#34;hiragino kaku gothic pro&amp;#34; , , &amp;#34;meiryo&amp;#34; ; font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;、および&lt;/span&gt;&lt;a href=&quot;https://fabric-tokyo.com/pages/policy#cookie&quot; target=&quot;_blank&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; font-stretch: inherit ; line-height: inherit ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;ヒラギノ角ゴシック pro&amp;#34; , &amp;#34;hiragino kaku gothic pro&amp;#34; , , &amp;#34;meiryo&amp;#34; ; font-size: 10px ; vertical-align: baseline ; color: rgb(51 , 51 , 51) ; background-color: rgb(255 , 255 , 255) ; outline: none&quot;&gt;Cookieの&lt;br&gt;使用&lt;/a&gt;&lt;span style=&quot;color: rgb(149 , 160 , 165) ; font-family: &amp;#34;roboto&amp;#34; , &amp;#34;ヒラギノ角ゴシック pro&amp;#34; , &amp;#34;hiragino kaku gothic pro&amp;#34; , , &amp;#34;meiryo&amp;#34; ; font-size: 10px ; background-color: rgb(255 , 255 , 255)&quot;&gt;に同意したことになります。&lt;/span&gt;" style="text;html=1;points=[];align=left;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="N5eiHkZ9s5nguNEUeQlA-1">
+          <mxGeometry x="-1230" y="565" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
