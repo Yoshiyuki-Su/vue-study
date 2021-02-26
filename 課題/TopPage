@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-26T13:50:52.875Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="1HQIZpeKc30NTTvPcJ9O" version="14.4.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-02-26T13:51:01.489Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="88c_i0RCznVA3ZwxSE6w" version="14.4.2" type="github" pages="3">
   <diagram name="トップ画面" id="03018318-947c-dd8e-b7a3-06fadd420f32">
     <mxGraphModel dx="1113" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -180,7 +180,7 @@
           <mxGeometry x="-1230" y="290" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="N5eiHkZ9s5nguNEUeQlA-7" value="&lt;font&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;&lt;b style=&quot;line-height: 150%&quot;&gt;SIGN UP&lt;/b&gt;&lt;/span&gt;&lt;br&gt;新規会員登録&lt;br&gt;&lt;/font&gt;" style="text;html=1;points=[];align=center;verticalAlign=top;spacingTop=-4;fontSize=14;fontFamily=Verdana" vertex="1" parent="N5eiHkZ9s5nguNEUeQlA-1">
-          <mxGeometry x="-1090" y="80" width="130" height="40" as="geometry" />
+          <mxGeometry x="-1090" y="70" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="N5eiHkZ9s5nguNEUeQlA-8" value="パスワード" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.pwField;strokeColor=#999999;mainText=;align=left;fontColor=#666666;fontSize=17;spacingLeft=3;gradientColor=none;" vertex="1" parent="N5eiHkZ9s5nguNEUeQlA-1">
           <mxGeometry x="-1230" y="400" width="390" height="40" as="geometry" />
